@@ -1,0 +1,18 @@
+/* CarList.css */
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    gap: 20px; /* Adjust the gap between cars */
+  }
+  
+  .car {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .car img {
+    max-width: 100%;
+    height: auto; /* Maintain image aspect ratio */
+  }
+  
